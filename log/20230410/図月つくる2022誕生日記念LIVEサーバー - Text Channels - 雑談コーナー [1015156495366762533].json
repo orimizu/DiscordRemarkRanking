@@ -1,0 +1,286 @@
+{
+  "guild": {
+    "id": "1015156495366762526",
+    "name": "図月つくる2022誕生日記念LIVEサーバー",
+    "iconUrl": "https://cdn.discordapp.com/icons/1015156495366762526/b4ed7fe9b352194129cfb5383a5ca83d.png?size=512"
+  },
+  "channel": {
+    "id": "1015156495366762533",
+    "type": "GuildTextChat",
+    "categoryId": "1015156495366762528",
+    "category": "Text Channels",
+    "name": "雑談コーナー",
+    "topic": "自己紹介や雑談などでご利用ください。"
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "messages": [
+    {
+      "id": "1016685774353211502",
+      "type": "Default",
+      "timestamp": "2022-09-06T12:26:17.714+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "メンツが変わり映えしない笑",
+      "author": {
+        "id": "997499369425223680",
+        "name": "りゅうり",
+        "discriminator": "4091",
+        "nickname": "りゅうり",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/997499369425223680/868da38477053a5e94af2c3321596975.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1016686139681296436",
+      "type": "Default",
+      "timestamp": "2022-09-06T12:27:44.815+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": ":__:",
+      "author": {
+        "id": "997499369425223680",
+        "name": "りゅうり",
+        "discriminator": "4091",
+        "nickname": "りゅうり",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/997499369425223680/868da38477053a5e94af2c3321596975.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1016687692655894550",
+      "type": "Default",
+      "timestamp": "2022-09-06T12:33:55.073+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "バレてる笑",
+      "author": {
+        "id": "997499369425223680",
+        "name": "りゅうり",
+        "discriminator": "4091",
+        "nickname": "りゅうり",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/997499369425223680/868da38477053a5e94af2c3321596975.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1089559487913934848",
+      "type": "Default",
+      "timestamp": "2023-03-26T14:40:24.955+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "つまり、月１００件ペースと",
+      "author": {
+        "id": "997499369425223680",
+        "name": "りゅうり",
+        "discriminator": "4091",
+        "nickname": "りゅうり",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/997499369425223680/868da38477053a5e94af2c3321596975.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1089559585267925022",
+      "type": "Default",
+      "timestamp": "2023-03-26T14:40:48.166+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ｗｗｗ",
+      "author": {
+        "id": "997499369425223680",
+        "name": "りゅうり",
+        "discriminator": "4091",
+        "nickname": "りゅうり",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/997499369425223680/868da38477053a5e94af2c3321596975.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1089560957044408521",
+      "type": "Default",
+      "timestamp": "2023-03-26T14:46:15.223+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "うまいｗ",
+      "author": {
+        "id": "997499369425223680",
+        "name": "りゅうり",
+        "discriminator": "4091",
+        "nickname": "りゅうり",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/997499369425223680/868da38477053a5e94af2c3321596975.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1091509444808036502",
+      "type": "Default",
+      "timestamp": "2023-03-31T23:48:50.907+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "たしかに\u3000ちょっと小さい",
+      "author": {
+        "id": "997499369425223680",
+        "name": "りゅうり",
+        "discriminator": "4091",
+        "nickname": "りゅうり",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/997499369425223680/868da38477053a5e94af2c3321596975.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1091511044469436496",
+      "type": "Default",
+      "timestamp": "2023-03-31T23:55:12.296+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "昨日は夜中まで、めもりちゃんがうんちの話をして、朝は朝イチからつくちゃんがうんこの話をするライヴラリという箱",
+      "author": {
+        "id": "997499369425223680",
+        "name": "りゅうり",
+        "discriminator": "4091",
+        "nickname": "りゅうり",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/997499369425223680/868da38477053a5e94af2c3321596975.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDD23",
+            "code": "rofl",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f923.svg"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "1091511516714512384",
+      "type": "Default",
+      "timestamp": "2023-03-31T23:57:04.888+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "なるほど",
+      "author": {
+        "id": "997499369425223680",
+        "name": "りゅうり",
+        "discriminator": "4091",
+        "nickname": "りゅうり",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/997499369425223680/868da38477053a5e94af2c3321596975.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1091957805222735902",
+      "type": "Default",
+      "timestamp": "2023-04-02T05:30:28.36+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "マジか、特に記念日とかじゃないのに、ランクインは凄いなぁ",
+      "author": {
+        "id": "997499369425223680",
+        "name": "りゅうり",
+        "discriminator": "4091",
+        "nickname": "りゅうり",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/997499369425223680/868da38477053a5e94af2c3321596975.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "1091960285813800980",
+      "type": "Default",
+      "timestamp": "2023-04-02T05:40:19.779+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "２９２９スパチャが結構飛び交ってましたね",
+      "author": {
+        "id": "997499369425223680",
+        "name": "りゅうり",
+        "discriminator": "4091",
+        "nickname": "りゅうり",
+        "color": null,
+        "isBot": false,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/997499369425223680/868da38477053a5e94af2c3321596975.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": []
+    }
+  ],
+  "messageCount": 171362
+}
