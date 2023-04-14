@@ -31,7 +31,7 @@ DiscordRemarkRanking
   * https://github.com/Tyrrrz/DiscordChatExporter
   * ドキュメントは以下を参照してください
   * https://github.com/Tyrrrz/DiscordChatExporter/tree/master/.docs
-* Discord\log の下に、yyyymmdd形式のフォルダを作成します。(例えば、20230410など)
+* DiscordRemarkRanking\log の下に、yyyymmdd形式のフォルダを作成します。(例えば、20230410など)
   * 例えば、20230410フォルダの場合、以下のファイルになるようにダウンロードします。
   * Discord\log\20230410\図月つくる2022誕生日記念LIVEサーバー - Text Channels - 雑談コーナー [1015156495366762533].json
 
