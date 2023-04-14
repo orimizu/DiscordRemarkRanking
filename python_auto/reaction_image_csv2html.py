@@ -10,6 +10,7 @@ import sys
 
 month_or_total = sys.argv[1]
 year_month = sys.argv[2]
+channel_name = sys.argv[3]
 
 print('<html>')
 print('<head>')
@@ -18,7 +19,8 @@ print('<meta http-equiv="Content-Style-Type" content="text/css">')
 print('<title>Zutsuki Tukuru Discord Server Log Analysis Emoji Ranking</title>')
 print('<head>')
 print('<body>')
-print('<h1>Discord 図月つくるサーバー 雑談コーナー %s リアクション絵文字ランキング(%s)</h1>' % (month_or_total, year_month))
+print('<h1>Discord %s %s リアクション絵文字ランキング(%s)</h1>' % (channel_name, month_or_total, year_month))
+#print('<h1>Discord 図月つくるサーバー 雑談コーナー %s リアクション絵文字ランキング(%s)</h1>' % (month_or_total, year_month))
 #print('<h1>Discord 図月つくるサーバー 雑談コーナー 累計 リアクション絵文字ランキング(2023/3/1版)</h1>')
 print('<table border="1" style="border-collapse: collapse">')
 print('<tr><th>順位</th><th>使用回数</th><th>絵文字</th><th>URL</th></tr>')

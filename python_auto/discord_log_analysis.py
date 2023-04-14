@@ -16,18 +16,20 @@ import os
 # https://github.com/Tyrrrz/DiscordChatExporter/tree/master/.docs
 
 
-if ( len(sys.argv) < 3):
-    print('python %s <log file dir(sub dir of ../logl/)> <this month(yyyy-mm)> <last month(yyyy-mm)|TOTAL>' % my_file)
+if ( len(sys.argv) < 4):
+    print('python %s <log file dir(sub dir of ../log/)> <this month(yyyy-mm)> <last month(yyyy-mm)|TOTAL> "<log_filename>"' % my_file)
     sys.exit(0)
 
 my_file = sys.argv[0]
 log_dir = sys.argv[1]
+log_filename = sys.argv[4]
 
-json_path = "../log/" + log_dir + "/図月つくる2022誕生日記念LIVEサーバー - Text Channels - 雑談コーナー [1015156495366762533].json"
+# json_path = "../log/" + log_dir + "/図月つくる2022誕生日記念LIVEサーバー - Text Channels - 雑談コーナー [1015156495366762533].json"
+json_path = "../log/" + log_dir + "/" + log_filename
 print("json_path: %s" % json_path)
 
 if not os.path.isfile(json_path):
-    print('python %s <log file dir(sub dir of ../logl/)> <this month(yyyy-mm)> <last month(yyyy-mm)|TOTAL>' % my_file)
+    print('python %s <log file dir(sub dir of ../log/)> <this month(yyyy-mm)> <last month(yyyy-mm)|TOTAL>' % my_file)
     sys.exit(0)
 
 if sys.argv[3] == 'TOTAL':
