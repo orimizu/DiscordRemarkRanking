@@ -6,19 +6,11 @@ import re
 import datetime
 import time
 import sys
+import csv
 
 pre = sys.argv[1]
 
 remark_ranking_seq = []
-#with open("./tmp/remarks_ranking.csv", "r", encoding='utf_8_sig') as fin:
-#    r = fin.readline()
-#    while r:
-#        rs = r.strip().split(',')
-#        nickname = rs[0].strip('"')
-#        remarks = int(rs[1].strip('"'))
-#        word_count = int(rs[2].strip('"'))
-#        remark_ranking_seq.append({"nickname": nickname, "remarks": remarks, "word_count": word_count})
-#        r = fin.readline()
 with open("./tmp/remarks_ranking.json", "r", encoding='utf_8_sig') as fin:
     remark_ranking_seq = json.load(fin)
 
@@ -41,6 +33,8 @@ if l1 > l2:
 else:
     l_big = l2
 
+csv_writer = csv.writer(sys.stdout, lineterminator="\n")
+
 for i in range(l_big):
     dic1 = sorted_remark_ranking_seq[i]
     dic2 = sorted_word_count_ranking_seq[i]
@@ -57,9 +51,9 @@ for i in range(l_big):
         r2_value = word_count2
         rank2 = i + 1
     if (i < l1) and (i < l2):
-        print('"%d","%s","%d","%d",,,"%d","%s","%d","%d"' % (rank1, nickname1, remarks1, word_count1, rank2, nickname2, remarks2, word_count2))
+        csv_writer.writerow([rank1, nickname1, remarks1, word_count1, "", "", rank2, nickname2, remarks2, word_count2])
     if (i < l1) and (i >= l2):
-        print('",,,,,,"%d","%s","%d","%d"' % (rank1, nickname1, remarks1, word_count1))
+        csv_writer.writerow([rank1, nickname1, remarks1, word_count1, "", "", "", "", "", ""])
     if (i >= l1) and (i < l2):
-        print('"%d","%s","%d","%d",,,,,,' % (rank2, nickname2, remarks2, word_count2))
+        csv_writer.writerow(["", "", "", "", "", "", rank2, nickname2, remarks2, word_count2])
 
