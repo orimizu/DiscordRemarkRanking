@@ -10,15 +10,17 @@ import sys
 pre = sys.argv[1]
 
 remark_ranking_seq = []
-with open("./tmp/remarks_ranking.csv", "r", encoding='utf_8_sig') as fin:
-    r = fin.readline()
-    while r:
-        rs = r.strip().split(',')
-        nickname = rs[0].strip('"')
-        remarks = int(rs[1].strip('"'))
-        word_count = int(rs[2].strip('"'))
-        remark_ranking_seq.append({"nickname": nickname, "remarks": remarks, "word_count": word_count})
-        r = fin.readline()
+#with open("./tmp/remarks_ranking.csv", "r", encoding='utf_8_sig') as fin:
+#    r = fin.readline()
+#    while r:
+#        rs = r.strip().split(',')
+#        nickname = rs[0].strip('"')
+#        remarks = int(rs[1].strip('"'))
+#        word_count = int(rs[2].strip('"'))
+#        remark_ranking_seq.append({"nickname": nickname, "remarks": remarks, "word_count": word_count})
+#        r = fin.readline()
+with open("./tmp/remarks_ranking.json", "r", encoding='utf_8_sig') as fin:
+    remark_ranking_seq = json.load(fin)
 
 sorted_remark_ranking_seq = sorted(remark_ranking_seq, key=lambda x: x["remarks"], reverse=True)
 sorted_word_count_ranking_seq = sorted(remark_ranking_seq, key=lambda x: x["word_count"], reverse=True)

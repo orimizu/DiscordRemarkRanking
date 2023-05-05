@@ -25,15 +25,18 @@ print('<h1>Discord %s %s リアクション絵文字ランキング(%s)</h1>' % 
 print('<table border="1" style="border-collapse: collapse">')
 print('<tr><th>順位</th><th>使用回数</th><th>絵文字</th><th>URL</th></tr>')
 
-reaction_image_num_seq = []
-with open("./tmp/reaction_image_ranking.csv", "r", encoding='utf_8_sig') as fin:
-    r = fin.readline()
-    while r:
-        rs = r.strip().split(',')
-        num = int(rs[0].strip('"'))
-        reaction = rs[1].strip('"')
-        reaction_image_num_seq.append({"num": num, "reaction": reaction})
-        r = fin.readline()
+#reaction_image_num_seq = []
+#with open("./tmp/reaction_image_ranking.csv", "r", encoding='utf_8_sig') as fin:
+#    r = fin.readline()
+#    while r:
+#        rs = r.strip().split(',')
+#        num = int(rs[0].strip('"'))
+#        reaction = rs[1].strip('"')
+#        reaction_image_num_seq.append({"num": num, "reaction": reaction})
+#        r = fin.readline()
+
+with open("./tmp/reaction_image_ranking.json", "r", encoding='utf_8_sig') as fin:
+    reaction_image_num_seq = json.load(fin)
 
 sorted_reaction_image_num_seq = sorted(reaction_image_num_seq, key=lambda x: x["num"], reverse=True)
 

@@ -41,6 +41,7 @@ if exist "..\log\%LOG_SUB_DIR%\%LOG_FILENAME%" (
 
 if exist "result\%LOG_SUB_DIR%" (
     del result\%LOG_SUB_DIR%\*.csv
+    del result\%LOG_SUB_DIR%\*.json
     del result\%LOG_SUB_DIR%\*.html
 ) else (
     mkdir result\%LOG_SUB_DIR%

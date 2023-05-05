@@ -228,16 +228,26 @@ for m in messages:
 # ここから出力処理です
 
 # 発言数と発言文字数の辞書に入っている内容を出力しています
-print("output ./tmp/remarks_ranking.csv ...")
-with open("./tmp/remarks_ranking.csv", "w", encoding='UTF-8') as fout:
+# print("output ./tmp/remarks_ranking.csv ...")
+print("output ./tmp/remarks_ranking.json ...")
+with open("./tmp/remarks_ranking.json", "w", encoding='UTF-8') as fout:
+    da = []
     for k in remarks:
         # print('"%s","%s","%d","%d"' % (k, nickname_dic[k], remarks[k], number_of_characters[k]))
-        fout.write('"%s","%d","%d"\n' % (nickname_dic[k], remarks[k], number_of_characters[k]))
+        # fout.write('"%s","%d","%d"\n' % (nickname_dic[k], remarks[k], number_of_characters[k]))
+        da.append({"nickname": nickname_dic[k], "remarks": remarks[k], "word_count": number_of_characters[k]})
+    json_data = json.dumps(da, ensure_ascii=False)
+    fout.write(json_data)
 
 # リアクションのイメージランキングの辞書の内容を出力しています
-print("output ./tmp/reaction_image_ranking.csv ...")
-with open("./tmp/reaction_image_ranking.csv", "w", encoding='UTF-8') as fout:
+# print("output ./tmp/reaction_image_ranking.csv ...")
+print("output ./tmp/reaction_image_ranking.json ...")
+with open("./tmp/reaction_image_ranking.json", "w", encoding='UTF-8') as fout:
+    da = []
     for img in reaction_stats:
-        fout.write('"%d","%s"\n' % (reaction_stats[img], img))
+        # fout.write('"%d","%s"\n' % (reaction_stats[img], img))
+        da.append({"num": reaction_stats[img], "reaction": img})
+    json_data = json.dumps(da, ensure_ascii=False)
+    fout.write(json_data)
 
 print("End")
